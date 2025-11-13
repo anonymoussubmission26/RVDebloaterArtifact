@@ -1,0 +1,75 @@
+{
+    "cfg": {
+        "direct" : "arducopter.svf.conditional.direct.calls.cfg",
+        "svftype" : "arducopter.svf.type.cfg",
+        "svftypefp" : "arducopter.svf.new.type.fp.wglobal.cfg"
+        },
+    "sec-eval-redebloater-output": "../../security-evaluation/removedViaRVDebloater.txt",
+    "modes": [
+        {
+            "ModeAuto": 
+                {
+                    "enable": "true",
+                    "master": "_ZN8ModeAuto4initEb,_ZN8ModeAuto3runEv",
+                    "worker": "child_main",
+                    "output": "auto.functions.out"
+                },
+            "ModeLand": 
+                {
+                    "enable": "true",
+                    "master": "_ZN8ModeLand4initEb,_ZN8ModeLand3runEv",
+                    "worker": "server_main_loop",
+                    "output": "land.functions.out"
+                },
+            "ModeAcro": 
+                {
+                    "enable": "true",
+                    "master": "_ZN8ModeAcro4initEb,_ZN8ModeAcro3runEv",
+                    "worker": "child_main",
+                    "output": "acro.functions.out"
+                },
+            "ModeBrake": 
+                {
+                    "enable": "true",
+                    "master": "_ZN9ModeBrake4initEb,_ZN9ModeBrake3runEv",
+                    "worker": "ngx_worker_process_cycle",
+                    "output": "brake.functions.out"
+                },
+            "ModeGuided": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeGuided4initEb,_ZN10ModeGuided3runEv",
+                    "worker": "worker_libevent",
+                    "output": "guided.functions.out"
+                },
+            "ModeLoiter": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeLoiter4initEb,_ZN10ModeLoiter3runEv",
+                    "worker": "aeMain",
+                    "output": "loiter.functions.out"
+                },
+            "ModeStabilize": 
+                {
+                    "enable": "true",
+                    "master": "_ZN13ModeStabilize3runEv",
+                    "worker": "isc_app_ctxrun",
+                    "output": "stabilize.functions.out"
+                },
+            "ModeRTL": 
+                {
+                    "enable": "true",
+                    "master": "_ZN7ModeRTL4initEb,_ZN7ModeRTL3runEv",
+                    "worker": "isc_app_ctxrun",
+                    "output": "rtl.functions.out"
+                },
+            "ModeCircle": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeCircle4initEb,_ZN10ModeCircle3runEv",
+                    "worker": "isc_app_ctxrun",
+                    "output": "circle.functions.out"
+                }
+        }
+    ]
+}

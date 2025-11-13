@@ -1,0 +1,48 @@
+digraph "Call Graph" {
+	label="Call Graph";
+
+	Node0x600002dd1180 [shape=record,shape=Mrecord,label="{CallGraphNode ID: 0 \{fun: _Znwm\}}"];
+	Node0x600002dd12c0 [shape=record,shape=Mrecord,label="{CallGraphNode ID: 1 \{fun: llvm_memset_p0_i64\}}"];
+	Node0x600002dd1310 [shape=record,shape=box,label="{CallGraphNode ID: 2 \{fun: _Z5func1v\}|{<s0>1}}"];
+	Node0x600002dd1310:s0 -> Node0x600002dd1130[color=black];
+	Node0x600002dd1130 [shape=record,shape=box,label="{CallGraphNode ID: 3 \{fun: _Z5func2v\}|{<s0>2}}"];
+	Node0x600002dd1130:s0 -> Node0x600002dd1270[color=black];
+	Node0x600002dd1270 [shape=record,shape=box,label="{CallGraphNode ID: 4 \{fun: _Z5func3v\}|{<s0>3}}"];
+	Node0x600002dd1270:s0 -> Node0x600002dd1310[color=black];
+	Node0x600002dd1220 [shape=record,shape=box,label="{CallGraphNode ID: 5 \{fun: rtn_int\}|{<s0>4}}"];
+	Node0x600002dd1220:s0 -> Node0x600002dd1360[color=black];
+	Node0x600002dd1360 [shape=record,shape=box,label="{CallGraphNode ID: 6 \{fun: _Z11modify_int1i\}}"];
+	Node0x600002dd13b0 [shape=record,shape=box,label="{CallGraphNode ID: 7 \{fun: rtn_int\}|{<s0>5}}"];
+	Node0x600002dd13b0:s0 -> Node0x600002dd1400[color=black];
+	Node0x600002dd1400 [shape=record,shape=box,label="{CallGraphNode ID: 8 \{fun: _Z11modify_int2i\}}"];
+	Node0x600002dd1450 [shape=record,shape=box,label="{CallGraphNode ID: 9 \{fun: _Z12exec_funcptrPFvvE\}|{<s0>21|<s1>22|<s2>23}}"];
+	Node0x600002dd1450:s0 -> Node0x600002dd1310[color=red];
+	Node0x600002dd1450:s1 -> Node0x600002dd1130[color=red];
+	Node0x600002dd1450:s2 -> Node0x600002dd1270[color=red];
+	Node0x600002dd14a0 [shape=record,shape=box,label="{CallGraphNode ID: 10 \{fun: _Z13call_vrtlfuncP6Parenti\}|{<s0>6|<s1>24|<s2>25}}"];
+	Node0x600002dd14a0:s0 -> Node0x600002dd1450[color=black];
+	Node0x600002dd14a0:s1 -> Node0x600002dd13b0[color=red];
+	Node0x600002dd14a0:s2 -> Node0x600002dd1220[color=red];
+	Node0x600002dd14f0 [shape=record,shape=box,label="{CallGraphNode ID: 11 \{fun: main\}|{<s0>7|<s1>8|<s2>9|<s3>10|<s4>11|<s5>12|<s6>13|<s7>14|<s8>15|<s9>16|<s10>17}}"];
+	Node0x600002dd14f0:s0 -> Node0x600002dd1680[color=black];
+	Node0x600002dd14f0:s1 -> Node0x600002dd1680[color=black];
+	Node0x600002dd14f0:s2 -> Node0x600002dd1680[color=black];
+	Node0x600002dd14f0:s3 -> Node0x600002dd1180[color=black];
+	Node0x600002dd14f0:s4 -> Node0x600002dd12c0[color=black];
+	Node0x600002dd14f0:s5 -> Node0x600002dd1540[color=black];
+	Node0x600002dd14f0:s6 -> Node0x600002dd1180[color=black];
+	Node0x600002dd14f0:s7 -> Node0x600002dd12c0[color=black];
+	Node0x600002dd14f0:s8 -> Node0x600002dd1590[color=black];
+	Node0x600002dd14f0:s9 -> Node0x600002dd14a0[color=black];
+	Node0x600002dd14f0:s10 -> Node0x600002dd14a0[color=black];
+	Node0x600002dd1540 [shape=record,shape=box,label="{CallGraphNode ID: 12 \{fun: _ZN6ParentC1Ev\}|{<s0>18}}"];
+	Node0x600002dd1540:s0 -> Node0x600002dd15e0[color=black];
+	Node0x600002dd1590 [shape=record,shape=box,label="{CallGraphNode ID: 13 \{fun: _ZN5ChildC1Ev\}|{<s0>19}}"];
+	Node0x600002dd1590:s0 -> Node0x600002dd1630[color=black];
+	Node0x600002dd15e0 [shape=record,shape=box,label="{CallGraphNode ID: 14 \{fun: _ZN6ParentC2Ev\}}"];
+	Node0x600002dd1630 [shape=record,shape=box,label="{CallGraphNode ID: 15 \{fun: _ZN5ChildC2Ev\}|{<s0>20}}"];
+	Node0x600002dd1630:s0 -> Node0x600002dd15e0[color=black];
+	Node0x600002dd1680 [shape=record,shape=Mrecord,label="{CallGraphNode ID: 16 \{fun: _ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERi\}}"];
+	Node0x600002dd16d0 [shape=record,shape=Mrecord,label="{CallGraphNode ID: 17 \{fun: _Znwm\}}"];
+	Node0x600002dd1720 [shape=record,shape=Mrecord,label="{CallGraphNode ID: 18 \{fun: llvm.memset.p0.i64\}}"];
+}
