@@ -53,7 +53,7 @@ Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **
         The script does the following:
         - Installs some dependencies for `SVF` and `gllvm`
         - Installs our version of `gllvm` (`ap-gllvm`) using go
-        - Clones `SVF` and `ArduPilot` repositories to `rvd-project` directory
+        - Clones `ArduPilot` and `PX4` repositories to `rvd-project` directory
         - Builds and configures `SVF` 
 
 3. **Instrumented Simulation**
