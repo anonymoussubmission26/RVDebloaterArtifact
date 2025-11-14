@@ -21,6 +21,7 @@ Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **
     cd ${RVD_PROJ}
     git clone git@github.com:anonymoussubmission26/RVDebloaterArtifact.git
     ```
+**Change RVDebloaterArtifact folder (cloned repo) to RVDebloater**
 
 2. **Pre-requisites**
 
