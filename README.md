@@ -100,8 +100,8 @@ Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **
         - Select "Fly To"
         - Press "OK" on the Altitude pop up window after entering the desired value
           
-    For rover the commands would be:
-       - ```mode guided```
-       - ```arm throttle```
+        For rover the commands would be:
+        - ```mode guided```
+        - ```arm throttle```
    
     - The vehicle should begin moving to the selected location
