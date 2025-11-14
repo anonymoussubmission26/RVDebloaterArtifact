@@ -2,7 +2,7 @@
 
 Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **"RVDebloater: Mode-based Adaptive Firmware Debloating for Robotic Vehicles"**.
 
-## Instructions
+## Instructions (Tested on Ubuntu 22.04 LTS)
 
 1. **Clone the Repository**
 
@@ -21,7 +21,7 @@ Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **
     cd ${RVD_PROJ}
     git clone git@github.com:anonymoussubmission26/RVDebloaterArtifact.git
     ```
-**Change RVDebloaterArtifact folder (cloned repo) to RVDebloater**
+**Please rename the cloned repository folder from RVDebloaterArtifact (cloned repo) to RVDebloater.**
 
 2. **Pre-requisites**
 
