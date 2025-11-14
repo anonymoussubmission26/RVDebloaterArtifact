@@ -62,9 +62,10 @@ Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **
     - Builds ArduPilot copter using our modified version of gllvm
     - Extracts the whole program bitcode file
     - Runs instrumentation on the bitcode file 
-        - *Note: This is not yet implemented, add implementation to the `instrument-ap.sh` script*
+        - *Note: `instrument-ap.sh` script supports two separate operations (instrumentation for profiling and instrumentation for monitoring), **please comment or uncomment the corresponding sections of the script depending on which operation you intend to use.**
+        - AddDPFunc.so and AddTrack.so are for profiling. CallOverwrite.so and AddEnforce.so are for monitoring.* 
     - Recompiles the bitcode back to executable
-    - Runs the ArduPilot SITL simulation using the instrumented copter executable
+    - Runs the ArduPilot SITL simulation using the instrumented executable file
     - The generated files including final executable and bitcode file are stored in `${AP_BIN}` (e.g., `rvd-project/ardupilot/build/sitl/bin`)
       
     **Run with**:
