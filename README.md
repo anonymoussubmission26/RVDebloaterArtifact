@@ -59,7 +59,7 @@ Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **
 3. **Instrumented Simulation**
 
     The `run-simulation.sh` script does the following:
-    - Builds ArduPilot copter using our modified version of gllvm
+    - Builds ArduPilot (copter, plane, or Rover) using our modified version of gllvm (Please modify the commented instructions in the script according to your target vehicle)
     - Extracts the whole program bitcode file
     - Runs instrumentation on the bitcode file 
         - *Note: `instrument-ap.sh` script supports two separate operations (instrumentation for profiling and instrumentation for monitoring), **please comment or uncomment the corresponding sections of the script depending on which operation you intend to use.**
@@ -75,7 +75,7 @@ Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **
     ```
 4. **Running Vehicle In Simulation**
 
-    *The following instructions are for copter since it is the default vehicle*  
+    *The following instructions is for copter*  
 
     - Once the simulation has loaded, wait for the following 2 lines to appear in the console  
         ```AP: EKF3 IMU0 is using GPS```  
@@ -99,5 +99,9 @@ Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **
         - Right-click anywhere on the mini map
         - Select "Fly To"
         - Press "OK" on the Altitude pop up window after entering the desired value
-
+          
+    For rover the commands would be:
+       - ```mode guided```
+       - ```arm throttle```
+   
     - The vehicle should begin moving to the selected location
