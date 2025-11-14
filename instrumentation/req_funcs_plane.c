@@ -18,7 +18,7 @@ typedef char bool;
 bool mode_to_func_mapping[29][50000] = {{0, 1, 2, 3, 4, 5}};
 volatile int mode_switching = 0;
 
-int counter2 = 0;
+int counter2, initialized = 0;
 int counter3 , counter4 = 0;
 
 char* func_names[50000];
