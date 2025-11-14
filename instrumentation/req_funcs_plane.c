@@ -105,6 +105,9 @@ const char* mode_to_string(enum Number mode) {
     }
     return "UNKNOWN";
 }
+int counter = 0;
+bool attack = false;
+
 void __attribute__((noinline)) mode_entry_runtime(uint8_t new_mode) {
     
     if (curr_mode_id == new_mode) return;
