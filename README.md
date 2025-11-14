@@ -19,7 +19,7 @@ Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **
 
     ```bash
     cd ${RVD_PROJ}
-    git clone git@github.com:anonymoussubmission26/RVDebloater.git
+    git clone git@github.com:anonymoussubmission26/RVDebloaterArtifact.git
     ```
 
 2. **Pre-requisites**
