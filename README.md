@@ -105,3 +105,4 @@ Welcome to the artifact for the IEEE S&P 2026 submission of our paper, titled **
         - ```arm throttle```
    
     - The vehicle should begin moving to the selected location
+    - **The current setup doesn't require your intervention, as it uses an automatic script to run different missions.**
