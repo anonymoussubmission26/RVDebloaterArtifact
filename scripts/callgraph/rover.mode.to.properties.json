@@ -1,0 +1,54 @@
+{
+    "cfg": {
+        "direct" : "ardurover.svf.conditional.direct.calls.cfg",
+        "svftype" : "ardurover.svf.type.cfg",
+        "svftypefp" : "ardurover.svf.new.type.fp.wglobal.cfg"
+        },
+    "sec-eval-rvdebloater-output": "../../security-evaluation/removedViaRVDebloater.txt",
+    "modes": [
+        {
+            "ModeAuto": 
+                {
+                    "enable": "true",
+                    "master": "_ZN8ModeAutoC2Ev,_ZN8ModeAuto6_enterEv",
+                    "worker": "child_main",
+                    "output": "auto.functions.out"
+                },
+            "ModeManual": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeManualC2Ev",
+                    "worker": "server_main_loop",
+                    "output": "manual.functions.out"
+                },
+            "ModeGuided": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeGuidedC2Ev,_ZN10ModeGuided6_enterEv",
+                    "worker": "worker_libevent",
+                    "output": "guided.functions.out"
+                },
+            "ModeLoiter": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeLoiter6_enterEv",
+                    "worker": "aeMain",
+                    "output": "loiter.functions.out"
+                },
+            "ModeRTL": 
+                {
+                    "enable": "true",
+                    "master": "_ZN7ModeRTLC2Ev,_ZN7ModeRTL6_enterEv",
+                    "worker": "isc_app_ctxrun",
+                    "output": "rtl.functions.out"
+                },
+            "ModeCircle": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeCircle6_enterEv",
+                    "worker": "isc_app_ctxrun",
+                    "output": "circle.functions.out"
+                }
+        }
+    ]
+}

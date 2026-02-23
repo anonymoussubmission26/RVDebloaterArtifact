@@ -1,0 +1,6 @@
+Indirect Call: Not allowed at address 0x7085c0 in mode auto:mission
+Indirect Call: Not allowed at address 0x56f550 in mode takeoff
+Indirect Call: Not allowed at address 0x56d970 in mode takeoff
+Indirect Call: Not allowed at address 0x7c6f10 in mode takeoff
+Indirect Call: Not allowed at address 0x56d8f0 in mode takeoff
+Indirect Call: Not allowed at address 0x44f5f0 in mode auto:loiter

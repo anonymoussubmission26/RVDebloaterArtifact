@@ -1,0 +1,728 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Darwin - 23.5.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      Subprocess aborted
+      dyld[16521]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16522]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16523]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16524]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16525]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16526]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      Subprocess aborted
+      dyld[16527]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16528]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16529]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16530]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16531]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16532]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      dyld[16533]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      dyld[16534]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      Subprocess aborted
+      dyld[16551]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16552]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16553]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16554]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16555]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16556]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      Subprocess aborted
+      dyld[16557]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16558]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16559]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16560]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16561]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      Subprocess aborted
+      dyld[16562]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      dyld[16563]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      dyld[16564]: Symbol not found: __ZN4llvm14TargetRegistry12lookupTargetENS_9StringRefERNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+        Referenced from: <F2A2B21C-5703-3665-A479-C5836C6E07C7> /opt/homebrew/Cellar/llvm/18.1.8/bin/clang-18
+        Expected in:     <E89F11E3-EAAE-3EEA-85E8-10C73EA1C949> /opt/homebrew/Cellar/llvm@16/16.0.6_1/lib/libLLVM.dylib
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-eGcbng"
+      binary: "/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-eGcbng"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/homebrew/opt/llvm/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-eGcbng'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_61d22/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_61d22.dir/build.make CMakeFiles/cmTC_61d22.dir/build
+        Building C object CMakeFiles/cmTC_61d22.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/opt/llvm/bin/clang   -arch arm64 -o CMakeFiles/cmTC_61d22.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCCompilerABI.c
+        Linking C executable cmTC_61d22
+        /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61d22.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_61d22.dir/CMakeCCompilerABI.c.o -o cmTC_61d22
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-dAc47J"
+      binary: "/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-dAc47J"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/homebrew/opt/llvm/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-dAc47J'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50538/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_50538.dir/build.make CMakeFiles/cmTC_50538.dir/build
+        Building CXX object CMakeFiles/cmTC_50538.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/homebrew/opt/llvm/bin/clang++   -arch arm64 -o CMakeFiles/cmTC_50538.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_50538
+        /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50538.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_50538.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_50538
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/lukematson/Documents/Employment/DSL/repos/SVF/llvm-16.0.0.obj/lib/cmake/llvm/FindFFI.cmake:44 (check_c_source_compiles)"
+      - "/Users/lukematson/Documents/Employment/DSL/repos/SVF/llvm-16.0.0.obj/lib/cmake/llvm/LLVMConfig.cmake:250 (find_package)"
+      - "CMakeLists.txt:32 (find_package)"
+    checks:
+      - "Performing Test HAVE_FFI_CALL"
+    directories:
+      source: "/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-aq3K7V"
+      binary: "/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-aq3K7V"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fPIC"
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/homebrew/opt/llvm/lib"
+      CMAKE_MODULE_PATH: "/Users/lukematson/Documents/Employment/DSL/repos/SVF/llvm-16.0.0.obj/lib/cmake/llvm"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_FFI_CALL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-aq3K7V'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68ff2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_68ff2.dir/build.make CMakeFiles/cmTC_68ff2.dir/build
+        Building C object CMakeFiles/cmTC_68ff2.dir/src.c.o
+        /opt/homebrew/opt/llvm/bin/clang -DHAVE_FFI_CALL  -fPIC  -arch arm64 -o CMakeFiles/cmTC_68ff2.dir/src.c.o -c /Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-aq3K7V/src.c
+        Linking C executable cmTC_68ff2
+        /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68ff2.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang -fPIC  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_68ff2.dir/src.c.o -o cmTC_68ff2  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libffi.tbd
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/lukematson/Documents/Employment/DSL/repos/SVF/llvm-16.0.0.obj/lib/cmake/llvm/FindTerminfo.cmake:21 (check_c_source_compiles)"
+      - "/Users/lukematson/Documents/Employment/DSL/repos/SVF/llvm-16.0.0.obj/lib/cmake/llvm/LLVMConfig.cmake:257 (find_package)"
+      - "CMakeLists.txt:32 (find_package)"
+    checks:
+      - "Performing Test Terminfo_LINKABLE"
+    directories:
+      source: "/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-6aGQsN"
+      binary: "/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-6aGQsN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fPIC"
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/homebrew/opt/llvm/lib"
+      CMAKE_MODULE_PATH: "/Users/lukematson/Documents/Employment/DSL/repos/SVF/llvm-16.0.0.obj/lib/cmake/llvm"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "Terminfo_LINKABLE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-6aGQsN'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_faa14/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_faa14.dir/build.make CMakeFiles/cmTC_faa14.dir/build
+        Building C object CMakeFiles/cmTC_faa14.dir/src.c.o
+        /opt/homebrew/opt/llvm/bin/clang -DTerminfo_LINKABLE  -fPIC  -arch arm64 -o CMakeFiles/cmTC_faa14.dir/src.c.o -c /Users/lukematson/Documents/Employment/DSL/rvd-callgraph/SVF-example/build/CMakeFiles/CMakeScratch/TryCompile-6aGQsN/src.c
+        Linking C executable cmTC_faa14
+        /opt/homebrew/Cellar/cmake/3.30.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faa14.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang -fPIC  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_faa14.dir/src.c.o -o cmTC_faa14  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libcurses.tbd
+        
+      exitCode: 0
+...

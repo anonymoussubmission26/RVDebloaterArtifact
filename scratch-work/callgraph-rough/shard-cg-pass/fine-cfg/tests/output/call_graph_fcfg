@@ -1,0 +1,17 @@
+rm -rf build
+mkdir -p build
+clang++-14 -I/usr/include/llvm-14/ -I/usr/include/llvm-c-14/ -I./ -D_DEBUG -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -O3 -fomit-frame-pointer -std=c++11 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -fPIC -ffunction-sections -fdata-sections -Wcast-qual -pedantic -Wno-long-long -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcovered-switch-default -Wno-uninitialized -Wno-missing-field-initializers -Wno-comment -c -MMD -MP -MF "build/Unroll.d.tmp" -MT "Unroll.o" -MT "Unroll.d" src/FineCFG.cpp -o build/FineCFG.o
+In file included from src/FineCFG.cpp:1:
+In file included from src/FineCFG.h:1:
+In file included from /usr/include/llvm-14/llvm/IR/Function.h:20:
+In file included from /usr/include/llvm-14/llvm/ADT/DenseSet.h:17:
+In file included from /usr/include/llvm-14/llvm/ADT/DenseMap.h:17:
+/usr/include/llvm-14/llvm/ADT/DenseMapInfo.h:17:10: fatal error: 'cassert' file not found
+#include <cassert>
+         ^~~~~~~~~
+1 error generated.
+make: *** [Makefile:11: FineCFG] Error 1
+Error opening 'build/FineCFG.so': build/FineCFG.so: cannot open shared object file: No such file or directory
+  -load request ignored.
+opt: Unknown command line argument '-FineCFG'.  Try: 'opt --help'
+opt: Did you mean '--sink'?

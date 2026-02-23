@@ -1,0 +1,40 @@
+INFO:coverage:Extracting reachable (required) functions for ModeManual
+INFO:coverage:********************************************************************************
+INFO:coverage:len(Accessible Functions): 16886
+INFO:coverage:Reachable Functions:
+INFO:coverage:********************************************************************************
+INFO:coverage:Extracting reachable (required) functions for ModeFBWA
+INFO:coverage:********************************************************************************
+INFO:coverage:len(Accessible Functions): 16886
+INFO:coverage:Reachable Functions:
+INFO:coverage:********************************************************************************
+INFO:coverage:Extracting reachable (required) functions for ModeCircle
+INFO:coverage:********************************************************************************
+INFO:coverage:len(Accessible Functions): 16883
+INFO:coverage:Reachable Functions:
+INFO:coverage:********************************************************************************
+INFO:coverage:Extracting reachable (required) functions for ModeGuided
+INFO:coverage:********************************************************************************
+INFO:coverage:len(Accessible Functions): 16893
+INFO:coverage:Reachable Functions:
+INFO:coverage:********************************************************************************
+INFO:coverage:Extracting reachable (required) functions for ModeQLoiter
+INFO:coverage:********************************************************************************
+INFO:coverage:len(Accessible Functions): 16917
+INFO:coverage:Reachable Functions:
+INFO:coverage:********************************************************************************
+INFO:coverage:Extracting reachable (required) functions for ModeRTL
+INFO:coverage:********************************************************************************
+INFO:coverage:len(Accessible Functions): 16892
+INFO:coverage:Reachable Functions:
+INFO:coverage:********************************************************************************
+INFO:coverage:Extracting reachable (required) functions for ModeQHover
+INFO:coverage:********************************************************************************
+INFO:coverage:len(Accessible Functions): 16889
+INFO:coverage:Reachable Functions:
+INFO:coverage:********************************************************************************
+INFO:coverage:Extracting reachable (required) functions for ModeAuto
+INFO:coverage:********************************************************************************
+INFO:coverage:len(Accessible Functions): 16911
+INFO:coverage:Reachable Functions:
+INFO:coverage:********************************************************************************

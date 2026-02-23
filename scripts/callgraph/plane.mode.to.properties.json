@@ -1,0 +1,68 @@
+{
+    "cfg": {
+        "direct" : "arduplane.svf.conditional.direct.calls.cfg",
+        "svftype" : "arduplane.svf.type.cfg",
+        "svftypefp" : "arduplane.svf.new.type.fp.wglobal.cfg"
+        },
+    "sec-eval-rvdebloater-output": "../../security-evaluation/removedViaRVDebloater.txt",
+    "modes": [
+        {
+            "ModeManual": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeManualC2Ev,_ZN10ModeManual3runEv",
+                    "worker": "child_main",
+                    "output": "manual.functions.out"
+                },
+            "ModeFBWA": 
+                {
+                    "enable": "true",
+                    "master": "_ZN8ModeFBWAC2Ev,_ZN8ModeFBWA3runEv",
+                    "worker": "server_main_loop",
+                    "output": "fbwa.functions.out"
+                },
+            "ModeCircle": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeCircleC2Ev",
+                    "worker": "child_main",
+                    "output": "circle.functions.out"
+                },
+            "ModeGuided": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeGuided6_enterEv,_ZN10ModeGuidedC2Ev",
+                    "worker": "ngx_worker_process_cycle",
+                    "output": "guided.functions.out"
+                },
+            "ModeQLoiter": 
+                {
+                    "enable": "true",
+                    "master": "_ZN11ModeQLoiter3runEv,_ZN11ModeQLoiterC2Ev",
+                    "worker": "worker_libevent",
+                    "output": "qloiter.functions.out"
+                },
+            "ModeRTL": 
+                {
+                    "enable": "true",
+                    "master": "_ZN7ModeRTL6_enterEv,_ZN7ModeRTLC2Ev",
+                    "worker": "isc_app_ctxrun",
+                    "output": "rtl.functions.out"
+                },
+            "ModeQHover": 
+                {
+                    "enable": "true",
+                    "master": "_ZN10ModeQHoverC2Ev,_ZN10ModeQHover3runEv",
+                    "worker": "isc_app_ctxrun",
+                    "output": "qhover.functions.out"
+                },
+            "ModeAuto": 
+                {
+                    "enable": "true",
+                    "master": "_ZN8ModeAuto3runEv,_ZN8ModeAuto6_enterEv",
+                    "worker": "isc_app_ctxrun",
+                    "output": "auto.functions.out"
+                }
+        }
+    ]
+}
