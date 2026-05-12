@@ -122,23 +122,44 @@ echo "--- Finished Building SVF ---"
 
 
 # clone ArduPilot
+#cd ${RVD_PROJ}
+#echo "--- Cloning ArduPilot Repository ---"
+#git clone --recursive https://github.com/ArduPilot/ardupilot.git
+#echo "--- Finished Cloning Ardupilot ---"
+
 cd ${RVD_PROJ}
 echo "--- Cloning ArduPilot Repository ---"
-git clone --recursive https://github.com/ArduPilot/ardupilot.git
+git clone --branch Copter-4.6.3 --depth 1 \
+    https://github.com/ArduPilot/ardupilot.git
+cd ardupilot
+git submodule update --init --recursive
+cd ${RVD_PROJ}
 echo "--- Finished Cloning Ardupilot ---"
-
+ 
 
 # clone PX4
+#cd ${RVD_PROJ}
+#echo "--- Cloning PX4 Repository ---"
+#git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+#bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+#cd PX4-Autopilot
+## git checkout v1.13.3
+#git submodule sync --recursive
+#git submodule update --init --recursive
+## git clone https://github.com/PX4/Firmware.git --recursive
+#echo "--- Finished Cloning PX4 ---"
+
 cd ${RVD_PROJ}
 echo "--- Cloning PX4 Repository ---"
-git clone https://github.com/PX4/PX4-Autopilot.git --recursive
-bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+git clone --branch v1.16.0 --depth 1 \
+    https://github.com/PX4/PX4-Autopilot.git
 cd PX4-Autopilot
-# git checkout v1.13.3
 git submodule sync --recursive
 git submodule update --init --recursive
-# git clone https://github.com/PX4/Firmware.git --recursive
+bash ./Tools/setup/ubuntu.sh
+cd ${RVD_PROJ}
 echo "--- Finished Cloning PX4 ---"
+
 
 
 # Configure and Build SVF
