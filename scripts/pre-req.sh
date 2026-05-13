@@ -17,6 +17,8 @@ echo "--- Finished Installing SVF Dependencies ---"
 # install GLLVM dependencies
 echo "--- Installing GLLVM Dependencies ---"
 sudo apt-get install llvm libclang-dev clang libapr1-dev libaprutil1-dev libpcre3-dev make
+sudo apt-get install -y llvm libclang-dev clang libapr1-dev libaprutil1-dev \
+    libpcre3-dev make libc++-dev libc++abi-dev uthash-dev
 echo "--- Finished Installing GLLVM Dependencies ---"
 
 
