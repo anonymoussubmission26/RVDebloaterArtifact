@@ -22,6 +22,7 @@ INST_AP_SCRIPT="${RVD_PATH}/scripts/dependent/instrument-ap.sh"
 GEN_CG_SCRIPT="${RVD_PATH}/scripts/callgraph/rover-generate-callgraphs.sh"
 
 BUILD_LOG_PATH="${RVD_PATH}/build-logs/ap-build-log.txt"
+mkdir -p "${RVD_PATH}/build-logs"
 # RECOMP_FLAGS=(-no-pie -Wl,--export-dynamic -lpthread -lapr-1 -laprutil-1 -lpcre -o) # This doesn't work but it's the flags 
 # RECOMP_FLAGS=(-no-pie -Wl,--export-dynamic -lpthread -lapr-1 -laprutil-1 -lpcre -lc++ -lc++abi -lm -lc -Wl,--wrap=malloc -o) # TODO: check these flags
 RECOMP_FLAGS=(-no-pie -Wl,--gc-sections -lc++ -lc++abi -lm -lc -Wl,--wrap=malloc -Wl,--undefined=call_motors_shutdown_wrapper) 
