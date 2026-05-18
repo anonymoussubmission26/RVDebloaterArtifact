@@ -135,12 +135,13 @@ echo "--- Object File Generated ---"
 # Generate instrumented executable from object file
 echo "--- Generating Instrumented Executable File from Object File ---"
 # "${LLVM_CLANG}" "${AP_BIN}/${OBJF_NAME}" "${RECOMP_FLAGS[@]}" "${AP_BIN}/${EXECF_NAME}" -v # Removed -g, maybe we need it #-T "${RVD_PATH}/profiles/custom.ld"
-"${LLVM_CLANG}" "${BCF_NAME}" -flto -O2 -ffunction-sections -fdata-sections "${RECOMP_FLAGS[@]}" -o "${AP_BIN}/${EXECF_NAME}"
+"${LLVM_CLANG}" "${AP_BIN}/${BCF_NAME}" -flto -O2 -ffunction-sections -fdata-sections "${RECOMP_FLAGS[@]}" -o "${AP_BIN}/${EXECF_NAME}"
 strip --strip-debug "${AP_BIN}/${EXECF_NAME}"
 echo "--- Finished Generating Instrumented Executable ---"
 
 # Copy instrumented and uninstrumneted exectuables to instrumentation directory rvd-project/RVDebloater/instrumentation
 echo "--- Copying Executables to Instrumentation Directory ---"
+cd "${AP_BIN}"
 cp "${EXECF_NAME}"-uninstr ${RVD_PROJ}/RVDebloater/instrumentation/"${EXECF_NAME}"-uninstr
 cp "${EXECF_NAME}" ${RVD_PROJ}/RVDebloater/instrumentation/"${EXECF_NAME}"-instr
 cp "${EXECF_NAME}" ${RVD_PROJ}/RVDebloater/profiles/"${EXECF_NAME}"
