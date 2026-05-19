@@ -1,5 +1,5 @@
 # LLVM_INCLUDE_PATH=${RVD_PROJ}/llvm-project/llvm/include
-LLVM_INCLUDE_PATH=${RVD_PROJ}/install/include
+LLVM_INCLUDE_PATH=${RVD_PROJ}/llvm-project/include
 $(info LLVM_INCLUDE_PATH is: $(LLVM_INCLUDE_PATH))
 
 # LLVM_INCLUDE_PATH=~/rvd-project/llvm-7/include
