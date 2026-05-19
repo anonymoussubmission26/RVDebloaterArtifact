@@ -77,7 +77,7 @@ echo "export PATH=${RVD_PROJ}/llvm-project/bin:\$PATH" >> ~/.bashrc
 # Persist libc++ library path so ardurover and other binaries can find it
 echo "export LD_LIBRARY_PATH=${RVD_PROJ}/llvm-project/lib:\$LD_LIBRARY_PATH" >> ~/.bashrc
 
-source ~/.bashrc
+source ${HOME}/.bashrc
 
 echo "--- Finished Building LLVM 7 ---"
 
@@ -90,7 +90,7 @@ sudo apt-get install -y python3-wxgtk4.0
 
 # Persist ~/.local/bin to PATH (pip installs MAVProxy here)
 echo "export PATH=\$PATH:\${HOME}/.local/bin" >> ~/.bashrc
-source ~/.bashrc
+source ${HOME}/.bashrc
 echo "--- Finished Installing MAVProxy and pymavlink ---"
 
 # ── AP-GLLVM (Go + gllvm) ───────────────────────────────────────────────────
