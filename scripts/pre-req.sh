@@ -18,6 +18,7 @@ sudo apt-get install -y \
     git \
     cmake ninja-build make \
     gcc g++ \
+    python3-pip \
     libtinfo6 libz-dev libzstd-dev \
     zip wget \
     libncurses5-dev
