@@ -29,4 +29,8 @@ go install github.com/anonymous-submission-25/ap-gllvm/cmd/...@v1.0.5 # GLLVM is
 echo "--- Finished Installing AP-GLLVM Binaries With GO ---"
 # After this command we have the gllvm binaries: gclang, gclang++, get-bc, etc. in ${HOME}/go/bin
 
+echo "export PATH=\$PATH:/usr/local/go/bin" >> ~/.bashrc
+echo "export PATH=\$PATH:\${HOME}/go/bin" >> ~/.bashrc
+source ~/.bashrc
+
 echo "--- Finished Installing AP-GLLVM ---"
