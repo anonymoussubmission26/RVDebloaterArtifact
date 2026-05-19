@@ -72,10 +72,10 @@ LLVM_DIR="${RVD_PROJ}/llvm-project/bin"
 export PATH="${LLVM_DIR}:${PATH}"
 
 # Persist LLVM path across terminal sessions
-echo "export PATH=${RVD_PROJ}/llvm-project/bin:\$PATH" >> ~/.bashrc
+echo "export PATH=${RVD_PROJ}/llvm-project/bin:\$PATH" >> {HOME}/.bashrc
 
 # Persist libc++ library path so ardurover and other binaries can find it
-echo "export LD_LIBRARY_PATH=${RVD_PROJ}/llvm-project/lib:\$LD_LIBRARY_PATH" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=${RVD_PROJ}/llvm-project/lib:\$LD_LIBRARY_PATH" >> {HOME}/.bashrc
 
 source ${HOME}/.bashrc
 
@@ -89,7 +89,7 @@ pip3 install MAVProxy pymavlink opencv-python Pillow
 sudo apt-get install -y python3-wxgtk4.0
 
 # Persist ~/.local/bin to PATH (pip installs MAVProxy here)
-echo "export PATH=\$PATH:\${HOME}/.local/bin" >> ~/.bashrc
+echo "export PATH=\$PATH:\${HOME}/.local/bin" >> {HOME}/.bashrc
 source ${HOME}/.bashrc
 echo "--- Finished Installing MAVProxy and pymavlink ---"
 
