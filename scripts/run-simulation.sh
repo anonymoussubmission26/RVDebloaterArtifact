@@ -166,6 +166,8 @@ echo "--- Running Simulation ---"
 # time ${SIM_V_SCRIPT} -v ${VEHICLE} ${FRAME_ARG} --console --map -w -N #28 Jan 2025: Uncomment it if you want manually run RV
 # 28 Jan 2025: I added these below commands for running RV automatically with different missions
 cp ${RVD_PATH}/scripts/run_missionRover.py ${AUTOTEST_BASE}
+cp ${RVD_PATH}/scripts/run_missionPlane.py ${AUTOTEST_BASE}
+cp ${RVD_PATH}/scripts/run_mission.py ${AUTOTEST_BASE}
 cp -r ${RVD_PATH}/mission ${AUTOTEST_BASE}/
 # cd ${AP_PATH}/ArduCopter
 # cd ${AP_PATH}/ArduPlane
