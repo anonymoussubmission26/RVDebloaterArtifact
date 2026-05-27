@@ -130,9 +130,14 @@ void __attribute__((noinline)) mode_entry_runtime(uint8_t new_mode) {
     mode_enum = (enum Number)new_mode; 
     printf("Previous mode is %s and new mode is %s\n", mode_to_string(curr_mode_id), mode_to_string(mode_enum));  
 
-    char filename[MAX_MODE_NAME + 100];
-    snprintf(filename, sizeof(filename), "/home/mohsen/rvd-project/RVDefender/profiles/%s_functions.txt", mode_to_string(mode_enum));
-
+    const char* home_dir = getenv("HOME");
+	if (home_dir == NULL) {
+    	perror("Error getting home directory");
+    	return;
+	}
+	char filename[MAX_MODE_NAME + 100];
+	snprintf(filename, sizeof(filename), "%s/rvd-project/RVDebloater/profiles/%s_functions.txt", home_dir, mode_to_string(mode_enum));
+	
     FILE *file = fopen(filename, "r");
     if (!file) {
         perror("Error opening function list file");
@@ -254,7 +259,15 @@ void __attribute__((noinline)) dummy_fn(void *addr){
             HASH_FIND(hh, logged_addresses, addr_str, strlen(addr_str), logged_entry);
 
             if (logged_entry == NULL) {
-                FILE *log_file = fopen("/home/mohsen/rvd-project/RVDefender/profiles/access_violation_indirect.log", "a");
+                const char* home_dir = getenv("HOME");
+				if (home_dir == NULL) {
+				    perror("Error getting home directory");
+				    return;
+				}
+				char log_path[512];
+				snprintf(log_path, sizeof(log_path), "%s/rvd-project/RVDebloater/profiles/access_violation_indirect.log", home_dir);
+				FILE *log_file = fopen(log_path, "a");
+                
                 if (log_file != NULL) {
                     fprintf(log_file, "Indirect Call: Not allowed at address %p in mode %s\n", addr, mode_to_string(mode_enum));
                     fclose(log_file);
