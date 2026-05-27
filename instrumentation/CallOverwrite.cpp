@@ -164,7 +164,14 @@ struct CallOverwrite : public ModulePass {
         }
 
         // Load the function list from the appropriate directory
-        loadFunctionList("/home/mohsen/rvd-project/RVDefender/profiles"); 
+        const char *home = getenv("HOME");
+        if (!home) {
+            errs() << "Error: HOME environment variable not set\n";
+            return false;
+        }
+        std::string profilesPath = std::string(home) + "/rvd-project/RVDebloater/profiles";
+        loadFunctionList(profilesPath);
+        // loadFunctionList("/home/mohsen/rvd-project/RVDebloater/profiles"); 
 
         int numInstrumented = 0;
         int indirect_counter = 0;
